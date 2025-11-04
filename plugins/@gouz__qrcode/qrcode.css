@@ -1,0 +1,8 @@
+.sd-qrcode {
+  background: white;
+  width: 128px;
+
+  svg {
+    width: 100%;
+  }
+}
