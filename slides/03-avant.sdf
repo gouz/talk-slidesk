@@ -1,0 +1,34 @@
+## Comment je faisais avant ? .[#split]
+
+- asciidoc + asciidoctor
+
+```bash
+# install ruby first
+gem install asciidoctor
+```
+
+- asciidoctor-revealjs
+
+```bash
+# install node first
+npm i --save asciidoctor @asciidoctor/reveal.js
+```
+
+## Conversion
+
+```js
+// Load Asciidoctor.js and the reveal.js converter
+var asciidoctor = require('@asciidoctor/core')()
+var asciidoctorRevealjs = require('@asciidoctor/reveal.js')
+asciidoctorRevealjs.register()
+
+// Convert the document 'presentation.adoc' using the reveal.js converter
+var options = { safe: 'safe', backend: 'revealjs' }
+asciidoctor.convertFile('presentation.adoc', options)
+```
+
+```sh
+node convert-slides.js
+```
+
+## Easy ? .[#mid-cover-right]
