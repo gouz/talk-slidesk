@@ -1,5 +1,5 @@
 :root {
-    --sd-heading1-size: 8.5vw;
+    --sd-heading1-size: 5.5vw;
     --sd-heading1-line-height: 1;
     --sd-heading2-size: 5vw;
     --sd-heading2-line-height: 1;
@@ -8,10 +8,10 @@
     --sd-caption-font-size: 1vw;
     --sd-caption-line-height: 1;
 
-    --sd-background-color: #fafafa;
-    --sd-heading-color: rgba(36, 36, 36, 0.97);
-    --sd-text-color: rgba(36, 36, 36, 0.87);
-    --sd-primary-color: rgb(37, 186, 146);
+    --sd-background-color: rgb(88, 200, 235);
+    --sd-heading-color: #fff;
+    --sd-text-color: #fcfcfc;
+    --sd-primary-color: rgba(209, 51, 63, 0.97);
     --sd-caption-color: rgba(255, 255, 255, 0.7);
     --sd-caption-bgcolor: rgba(36, 36, 36, 0.7);
 
@@ -21,4 +21,65 @@
     --sd-sv-text-line-height: 1.2;
     --sd-sv-background-color: #242424;
     --sd-sv-text-color: rgba(255, 255, 255, 0.87);
+}
+
+.cover {
+    background-image: url(backgrounds/andy-hermawan-O1jUvZX9DOA-unsplash.webp);
+    background-size: cover;
+
+    h1 {
+        margin-left: 50%;
+    }
+}
+
+.sd-slide pre {
+    font-size: 1.3vw;
+    margin: 1vh auto;
+}
+
+blockquote {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1vh 2vw;
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+
+.bird {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-cover-right .img {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            to right,
+            rgba(88, 200, 235, 0.5),
+            rgba(88, 200, 235, 0)
+        );
+        z-index: 1;
+    }
+}
+
+.mid-cover-left .img {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            to left,
+            rgba(88, 200, 235, 0.5),
+            rgba(88, 200, 235, 0)
+        );
+        z-index: 1;
+    }
 }

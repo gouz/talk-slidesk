@@ -1,0 +1,35 @@
+## Bun
+
+```
+$ bun build ./index.ts --compile --outfile slidesk
+```
+
+## Cross-Compilation
+
+```
+$ bun build --compile --target=bun-linux-x64 ./path/to/my/app.ts --outfile myapp
+$ bun build --compile --target=bun-windows-x64 ./path/to/my/app.ts --outfile myapp
+$ bun build --compile --target=bun-darwin-arm64 ./path/to/my/app.ts --outfile myapp
+$ bun build --compile --target=bun-darwin-x64 ./path/to/my/app.ts --outfile myapp
+```
+
+## Installation ou Utilisation
+
+Plus de dépendances
+
+```
+$ brew install slidesk
+$ bunx slidesk
+$ docker run -it -v "$(pwd)"/:/slidesk/ -p 1337:1337 gouz/slidesk:latest slidesk -tn
+```
+
+## Cahier des charges .[steps]
+
+- **langage simple** : basculé en markdown par la suite
+- **inclusion de fichiers** : structure, puis répertoire
+- **modularité** : components, plugins
+- **flexibilité** : code html, ...
+
+## A la base
+
+c'est juste pour moi, mais repo ouvert

@@ -1,18 +1,26 @@
 ## Comment je faisais avant ? .[#split]
 
-- asciidoc + asciidoctor
+[[left]]
+
+**asciidoc + asciidoctor**
 
 ```bash
 # install ruby first
-gem install asciidoctor
+$ gem install asciidoctor
 ```
 
-- asciidoctor-revealjs
+[[/left]]
+
+[[right]]
+
+**asciidoctor-revealjs**
 
 ```bash
 # install node first
-npm i --save asciidoctor @asciidoctor/reveal.js
+$ npm i --save asciidoctor @asciidoctor/reveal.js
 ```
+
+[[/right]]
 
 ## Conversion
 
@@ -28,7 +36,13 @@ asciidoctor.convertFile('presentation.adoc', options)
 ```
 
 ```sh
-node convert-slides.js
+$ node convert-slides.js
 ```
 
-## Easy ? .[#mid-cover-right]
+## Easy ? .[#mid-cover-left]
+
+[[img]]
+
+!image(assets/backgrounds/thiebaud-faix-ALsG3nt6EuQ-unsplash.webp)
+
+[[/img]]

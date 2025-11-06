@@ -2,12 +2,14 @@
 add_styles: assets/theme.css
 ::/
 
-## Petit projet, tu deviendras (peut-être) grand !
+## .[cover]
+
+# Petit projet, tu deviendras (peut-être) grand !
 
 !include(slides)
 
-## test .[#title_top]
+## Credits
 
-coucou
+Photos, illustrations : Unsplash
 
 ## Merci
