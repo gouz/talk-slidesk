@@ -12,4 +12,20 @@ add_styles: assets/theme.css
 
 Photos, illustrations : Unsplash
 
-## Merci
+## Merci .[#split]
+
+[[left]]
+
+Source :
+
+<div class="sd-qrcode" data-url="https://github.com/gouz/talk-slidesk" style="width: 400px;"></div>
+
+https://github.com/gouz/talk-slidesk
+
+[[/left]]
+
+[[right]]
+
+Des feedbacks ?
+
+[[/right]]
