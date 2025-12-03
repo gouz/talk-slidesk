@@ -1,3 +1,15 @@
+## Cahier des charges .[steps]
+
+- **langage simple** : basculé en markdown par la suite
+- **inclusion de fichiers** : structure, puis répertoire
+- **modularité** : components, plugins
+- **flexibilité** : code html, ...
+- **watcher** : refresh auto
+
+## A la base
+
+c'est juste pour moi, mais repo ouvert
+
 ## Bun
 
 ```
@@ -18,18 +30,7 @@ $ bun build --compile --target=bun-darwin-x64 ./path/to/my/app.ts --outfile myap
 Plus de dépendances
 
 ```
-$ brew install slidesk
+$ brew install gouz/tools/slidesk
 $ bunx slidesk
 $ docker run -it -v "$(pwd)"/:/slidesk/ -p 1337:1337 gouz/slidesk:latest slidesk -tn
 ```
-
-## Cahier des charges .[steps]
-
-- **langage simple** : basculé en markdown par la suite
-- **inclusion de fichiers** : structure, puis répertoire
-- **modularité** : components, plugins
-- **flexibilité** : code html, ...
-
-## A la base
-
-c'est juste pour moi, mais repo ouvert

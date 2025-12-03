@@ -12,17 +12,21 @@ Slides as Code
 - ➕ **++LINES_ADD++** lines added
 - ➖ **++LINES_DEL++** lines removed
 
-## Logo .[#split]
+## Logo .[#split sbs]
 
 [[left]]
 
+<div class="step">
 !image(assets/logos/SD.png,old logo,300,300, border-radius: 20px; overflow: hidden;)
+</div>
 
 [[/left]]
 
 [[right]]
 
+<div class="step">
 !image(assets/logos/SD-new.png, logo, 300, 300, border-radius: 20px; overflow: hidden;)
+</div>
 
 [[/right]]
 

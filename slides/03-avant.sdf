@@ -39,6 +39,12 @@ asciidoctor.convertFile('presentation.adoc', options)
 $ node convert-slides.js
 ```
 
+## Presentation
+
+```sh
+$ open presentation.html
+```
+
 ## Easy ? .[#mid-cover-left]
 
 [[img]]

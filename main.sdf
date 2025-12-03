@@ -18,7 +18,7 @@ Photos, illustrations : Unsplash
 
 Source :
 
-<div class="sd-qrcode" data-url="https://github.com/gouz/talk-slidesk" style="width: 400px;"></div>
+<div class="sd-qrcode" data-url="https://github.com/gouz/talk-slidesk" style="width: 400px;" data-icon="/favicon.svg"></div>
 
 https://github.com/gouz/talk-slidesk
 
@@ -27,5 +27,7 @@ https://github.com/gouz/talk-slidesk
 [[right]]
 
 Des feedbacks ?
+
+<div class="sd-qrcode" data-url="https://openfeedback.io/KjyPp2Tdjx3FWfXrZ6vn/2025-12-09/F2FFfurlfjBLOLDgVpXJ" style="width: 400px;"></div>
 
 [[/right]]
