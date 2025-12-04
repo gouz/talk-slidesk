@@ -12,7 +12,7 @@ Slides as Code
 - ➕ **++LINES_ADD++** lines added
 - ➖ **++LINES_DEL++** lines removed
 
-## Logo .[#split sbs]
+## Logo .[#split sbs animate]
 
 [[left]]
 
@@ -31,10 +31,12 @@ Slides as Code
 [[/right]]
 
 
-## Pourquoi SliDesk ? .[#mid-cover-right]
+## Pourquoi SliDesk ? .[#mid-cover-right animate]
 
 [[img]]
 
 !image(assets/backgrounds/dewang-gupta-r8q16QN40Xg-unsplash.webp)
 
 [[/img]]
+
+!image(assets/logos/SD-new.png, logo, 300, 300, border-radius: 20px; overflow: hidden;)

@@ -83,3 +83,24 @@ blockquote {
         z-index: 1;
     }
 }
+
+.qrfeed {
+    svg {
+        stroke: var(--sd-primary-color);
+    }
+}
+
+pre {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.sd-qrcode {
+    border-radius: 20px;
+
+    .sd-qrcode-icon img {
+        border-radius: 20px;
+    }
+}

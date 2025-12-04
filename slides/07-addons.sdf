@@ -1,0 +1,65 @@
+## Components
+
+```js
+/**
+ * Early Birds
+ */
+
+const birdTemplate = (pseudo) => `
+  <div class="bird">
+    <img src="assets/communautes/${pseudo}.webp" alt="${pseudo}" width="200" style="background: white; border-radius: 100%">
+    <h3>${pseudo}</h3>
+    <div class="sd-qrcode" data-url="https://github.com/${pseudo}" style="width: 200px"></div>
+  </div>
+`;
+
+export default (data) => {
+  let newData = data;
+  [...newData.matchAll(/!bird\((.*)\)/g)].forEach((match) => {
+    newData = newData.replace(match[0], birdTemplate(match[1]));
+  });
+  return newData;
+};
+```
+
+## Templates .[#split]
+
+[[left]]
+
+split.sdt
+```html
+<sd-title />
+
+<div class="split">
+  <div class="left">
+    <sd-left />
+  </div>
+  <div class="right">
+    <sd-right />
+    <sd-content />
+  </div>
+</div>
+```
+
+[[/left]]
+
+[[right]]
+
+slide.sdf
+```md
+    ## Title .[#split]
+
+    [[left]]
+
+    left content
+
+    [[/left]]
+
+    [[right]]
+
+    right content
+
+    [[/right]]
+```
+
+[[/right]]

@@ -6,7 +6,7 @@ const birdTemplate = (pseudo) => `
   <div class="bird">
     <img src="assets/communautes/${pseudo}.webp" alt="${pseudo}" width="200" style="background: white; border-radius: 100%">
     <h3>${pseudo}</h3>
-    <div class="sd-qrcode" data-url="" style="width: 200px"></div>
+    <div class="sd-qrcode" data-url="https://github.com/${pseudo}" style="width: 200px"></div>
   </div>
 `;
 

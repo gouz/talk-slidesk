@@ -8,10 +8,6 @@ add_styles: assets/theme.css
 
 !include(slides)
 
-## Credits
-
-Photos, illustrations : Unsplash
-
 ## Merci .[#split]
 
 [[left]]
@@ -28,6 +24,10 @@ https://github.com/gouz/talk-slidesk
 
 Des feedbacks ?
 
-<div class="sd-qrcode" data-url="https://openfeedback.io/KjyPp2Tdjx3FWfXrZ6vn/2025-12-09/F2FFfurlfjBLOLDgVpXJ" style="width: 400px;"></div>
+<div class="sd-qrcode qrfeed" data-url="https://openfeedback.io/KjyPp2Tdjx3FWfXrZ6vn/2025-12-09/F2FFfurlfjBLOLDgVpXJ" style="width: 400px;"></div>
+
+=> https://slidesk.link
 
 [[/right]]
+
+<small>Photos, illustrations : Unsplash</small>
