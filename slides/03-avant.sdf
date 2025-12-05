@@ -1,4 +1,4 @@
-## Comment je faisais avant ? .[#split]
+## 🧐 Comment je faisais avant ? .[#split]
 
 [[left]]
 
@@ -22,7 +22,7 @@ $ npm i --save asciidoctor @asciidoctor/reveal.js
 
 [[/right]]
 
-## Conversion
+## ⚙️ Conversion
 
 ```js
 // Load Asciidoctor.js and the reveal.js converter
@@ -39,13 +39,13 @@ asciidoctor.convertFile('presentation.adoc', options)
 $ node convert-slides.js
 ```
 
-## Presentation
+## 📽️ Presentation
 
 ```sh
 $ open presentation.html
 ```
 
-## Easy ? .[#mid-cover-left]
+## 🤯 Easy ? .[#mid-cover-left]
 
 [[img]]
 

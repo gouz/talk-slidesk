@@ -1,4 +1,4 @@
-## Cahier des charges .[steps]
+## 📋 Cahier des charges .[steps]
 
 - **langage simple** : basculé en markdown par la suite
 - **inclusion de fichiers** : structure, puis répertoire
@@ -7,17 +7,17 @@
 - **watcher** : refresh auto
 - **responsive**
 
-## A la base
+## 🤗 À la base
 
 c'est juste pour moi, mais repo ouvert
 
-## Bun
+## Bun .[bun]
 
 ```
 $ bun build ./index.ts --compile --outfile slidesk
 ```
 
-## Cross-Compilation
+## Cross-Compilation .[bun]
 
 ```
 $ bun build --compile --target=bun-linux-x64 ./path/to/my/app.ts --outfile myapp
@@ -26,7 +26,7 @@ $ bun build --compile --target=bun-darwin-arm64 ./path/to/my/app.ts --outfile my
 $ bun build --compile --target=bun-darwin-x64 ./path/to/my/app.ts --outfile myapp
 ```
 
-## Installation ou Utilisation
+## 📦 Installation ou Utilisation
 
 Plus de dépendances
 

@@ -1,4 +1,4 @@
-## Components
+## ⚙️ Components
 
 ```js
 /**
@@ -22,7 +22,7 @@ export default (data) => {
 };
 ```
 
-## Templates .[#split]
+## 📝 Templates .[#split]
 
 [[left]]
 
@@ -36,9 +36,10 @@ split.sdt
   </div>
   <div class="right">
     <sd-right />
-    <sd-content />
   </div>
 </div>
+
+<sd-content />
 ```
 
 [[/left]]
@@ -60,6 +61,8 @@ slide.sdf
     right content
 
     [[/right]]
+
+    Bottom
 ```
 
 [[/right]]
