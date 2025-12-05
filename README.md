@@ -11,4 +11,4 @@ Je vous propose un REX sur la création d'un projet opensource, sur les craintes
 
 Maintenant le projet évolue et dispose d'un "hub" pour la communauté et favoriser son émancipation.
 
-Je vous propose également de faire une démonstration de l'outil pour essayer de vous convaincre à basculer dans le monde du SaC (Slides as Code).
+Je vais vous faire une démonstration de l'outil pour vous convaincre de basculer dans le monde du SaC (Slides as Code).
