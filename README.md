@@ -1,5 +1,8 @@
 # Petit projet, tu deviendras (peut-être) grand !
 
+<img width="1920" height="1080" alt="000" src="https://github.com/user-attachments/assets/67183a1e-0540-4522-9adc-04fa83e23b8c" />
+
+
 Commencé comme projet perso sans prétention, SliDesk commence petit à petit avoir des étoiles (GitHub) dans les yeux.
 
 Des outils pour faire des présentations, il en existe plein, alors pourquoi en faire un autre ?
