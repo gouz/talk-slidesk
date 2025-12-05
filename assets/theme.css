@@ -126,3 +126,15 @@ pre {
         background-position: 256px 224px;
     }
 }
+
+.bird {
+    img {
+        background: white;
+        border-radius: 100%;
+        width: 200px;
+    }
+
+    .sd-qrcode {
+        width: 200px;
+    }
+}
