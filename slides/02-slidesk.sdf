@@ -25,13 +25,13 @@ Slides as Code
 [[right]]
 
 <div class="step">
-!image(assets/logos/SD-new.png, logo, 300, 300, border-radius: 20px; overflow: hidden;)
+!sdlogo()
 </div>
 
 [[/right]]
 
 
-## Pourquoi SliDesk ? .[#mid-cover-right animate]
+## Pourquoi SliDesk ? .[#mid-cover-right animate invlogo]
 
 [[img]]
 
@@ -39,4 +39,4 @@ Slides as Code
 
 [[/img]]
 
-!image(assets/logos/SD-new.png, logo, 300, 300, border-radius: 20px; overflow: hidden;)
+!sdlogo()
