@@ -25,23 +25,26 @@ $ npm i --save asciidoctor @asciidoctor/reveal.js
 ## ⚙️ Conversion
 
 ```js
-// Load Asciidoctor.js and the reveal.js converter
+/* Load Asciidoctor.js and the reveal.js converter */
 var asciidoctor = require('@asciidoctor/core')()
 var asciidoctorRevealjs = require('@asciidoctor/reveal.js')
 asciidoctorRevealjs.register()
 
-// Convert the document 'presentation.adoc' using the reveal.js converter
+/* Convert the document 'presentation.adoc' using the reveal.js converter */
 var options = { safe: 'safe', backend: 'revealjs' }
 asciidoctor.convertFile('presentation.adoc', options)
 ```
 
-```sh
+<hr style="margin: 20px" />
+
+```bash
+# generate a presentation.html file
 $ node convert-slides.js
 ```
 
 ## 📽️ Presentation
 
-```sh
+```bash
 $ open presentation.html
 ```
 
