@@ -74,6 +74,9 @@ blockquote {
     font-size: 0.8em;
 }
 
+iframe {
+    border-radius: 20px;
+}
 /* override plugins */
 
 .sd-qrcode {
@@ -83,6 +86,10 @@ blockquote {
         border-radius: 20px;
         border: 4px solid #000;
     }
+}
+
+.xterm-viewport {
+    border-radius: 20px;
 }
 
 /* components */

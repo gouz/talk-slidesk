@@ -33,11 +33,6 @@ $ bun build --compile --target=bun-windows-x64 ./path/to/my/app.ts --outfile mya
 
 ```bash
 $ bun build --compile --target=bun-darwin-arm64 ./path/to/my/app.ts --outfile myapp
-```
-
-<hr style="margin: 20px" />
-
-```bash
 $ bun build --compile --target=bun-darwin-x64 ./path/to/my/app.ts --outfile myapp
 ```
 
