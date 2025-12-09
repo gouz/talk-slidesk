@@ -2,10 +2,11 @@
 
 - **langage simple** : basculé en markdown par la suite
 - **inclusion de fichiers** : structure, puis répertoire
-- **modularité** : components, plugins
+- **speaker_view**
+- **modularité** : components, plugins, themes, templates
 - **flexibilité** : code html, ...
 - **watcher** : refresh auto
-- **responsive**
+- **responsive** & "**green**"
 
 ## 🤗 À la base
 

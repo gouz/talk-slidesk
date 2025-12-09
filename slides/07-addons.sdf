@@ -4,6 +4,7 @@
 /**
  * components/bird.mjs
  * Early Birds
+ * usage: !bird(pseudo)
  */
 
 const birdTemplate = (pseudo) => `
